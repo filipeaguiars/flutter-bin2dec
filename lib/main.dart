@@ -113,7 +113,7 @@ class _MyAppState extends State<MyApp> {
                   controller: _controllerDec,
                   decoration: InputDecoration(
                     labelStyle: TextStyle(color: Colors.blueAccent),
-                    hintText: "Insert a binary to convert",
+                    hintText: "Insert a decimal to convert",
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.lightBlue[200], width: 2.0),
                     ),
