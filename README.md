@@ -2,7 +2,12 @@
 
 App in Flutter to convert Binary to Decimal and Decimal to Binary
 
-## Getting Started
+## Home Page
 
+![image](https://user-images.githubusercontent.com/17336136/110726947-1be89800-81f9-11eb-929f-0c0788115c5b.png)
 
-![image](https://user-images.githubusercontent.com/17336136/110726448-26566200-81f8-11eb-88dd-88cb69e0ee4d.png)
+## Converting Binary:
+![image](https://user-images.githubusercontent.com/17336136/110727016-3de21a80-81f9-11eb-885a-478d8adf95f8.png)
+
+## Converting Decimal:
+![image](https://user-images.githubusercontent.com/17336136/110727107-610cca00-81f9-11eb-9f49-773dc1b5145a.png)
