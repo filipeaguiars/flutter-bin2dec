@@ -68,73 +68,75 @@ class _MyAppState extends State<MyApp> {
             )
           ],
         ),
-      body: Container(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Padding(padding: EdgeInsets.all(10),
-            child: Text("$_infoText",
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            ),
-            Padding(padding: EdgeInsets.all(10),
-            child: TextField(
-              controller: _controllerBin,
-              autofocus: true,
-              decoration: InputDecoration(
-                labelStyle: TextStyle(color: Colors.blueAccent),
-                hintText: "Insert a binary to convert",
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.lightBlue[200], width: 2.0),
-                ),
-                enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(
-                      color: Colors.blue[500],
-                    )
+      body: SingleChildScrollView(
+        child: Container(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Padding(padding: EdgeInsets.all(10),
+                child: Text("$_infoText",
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
                 ),
               ),
-            ),
-            ),
-            Padding(
-              padding: EdgeInsets.all(10),
-              child: Container(
-                height: 50,
-                child: ElevatedButton(
-                  onPressed: _bin2dec,
-                  child: Text("Calcular"),
+              Padding(padding: EdgeInsets.all(10),
+                child: TextField(
+                  controller: _controllerBin,
+                  autofocus: true,
+                  decoration: InputDecoration(
+                    labelStyle: TextStyle(color: Colors.blueAccent),
+                    hintText: "Insert a binary to convert",
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.lightBlue[200], width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.blue[500],
+                        )
+                    ),
+                  ),
                 ),
               ),
-            ),
-            Padding(padding: EdgeInsets.all(10),
-            child: TextField(
-              controller: _controllerDec,
-              decoration: InputDecoration(
-                labelStyle: TextStyle(color: Colors.blueAccent),
-                hintText: "Insert a binary to convert",
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.lightBlue[200], width: 2.0),
-                ),
-                enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(
-                      color: Colors.blue[500],
-                    )
+              Padding(
+                padding: EdgeInsets.all(10),
+                child: Container(
+                  height: 50,
+                  child: ElevatedButton(
+                    onPressed: _bin2dec,
+                    child: Text("Calcular"),
+                  ),
                 ),
               ),
-            ),
-            ),
-            Padding(
-              padding: EdgeInsets.only(top:10, bottom: 10),
-              child: Container(
-                height: 50,
-                child: ElevatedButton(
-                  onPressed: _dec2bin,
-                  child: Text("Calcular"),
+              Padding(padding: EdgeInsets.all(10),
+                child: TextField(
+                  controller: _controllerDec,
+                  decoration: InputDecoration(
+                    labelStyle: TextStyle(color: Colors.blueAccent),
+                    hintText: "Insert a binary to convert",
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.lightBlue[200], width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.blue[500],
+                        )
+                    ),
+                  ),
                 ),
               ),
-            ),
-          ],
+              Padding(
+                padding: EdgeInsets.only(top:10, bottom: 10),
+                child: Container(
+                  height: 50,
+                  child: ElevatedButton(
+                    onPressed: _dec2bin,
+                    child: Text("Calcular"),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       )
     );
