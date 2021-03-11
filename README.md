@@ -1,6 +1,8 @@
 # bin2dec
 
-App in Flutter to convert Binary to Decimal and Decimal to Binary
+Simple App in Flutter to convert Binary to Decimal and Decimal to Binary
+
+Projects based on [App Ideas Collection](https://github.com/florinpop17/app-ideas) by [Florin Pop](https://github.com/florinpop17)
 
 ## Home Page
 
