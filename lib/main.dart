@@ -104,7 +104,7 @@ class _MyAppState extends State<MyApp> {
                   height: 50,
                   child: ElevatedButton(
                     onPressed: _bin2dec,
-                    child: Text("Calcular"),
+                    child: Text("Convert"),
                   ),
                 ),
               ),
@@ -131,7 +131,7 @@ class _MyAppState extends State<MyApp> {
                   height: 50,
                   child: ElevatedButton(
                     onPressed: _dec2bin,
-                    child: Text("Calcular"),
+                    child: Text("Convert"),
                   ),
                 ),
               ),
